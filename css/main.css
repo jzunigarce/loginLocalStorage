@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form-control {
+    padding: 10px;
+}
+header.title {
+    background-color: #222222;
+    color: #95928F;
+    padding: 15px 50px;
+    width: 100%
+}
+
+.login, .register {
+    border: 1px solid #ECECEC;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.login header, .register header {
+    background-color: #F5F5F5;
+    color: #222222;
+    padding: 10px 10px;
+    width: 100%
+}
+
+form input {
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    display: block;
+    padding: .385rem .75rem;
+    width: 100%;
+}
+
+.btn {
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    width: 100%;
+    padding: .385rem .75rem;
+    text-align: center
+}
+
+.btn-green {
+    background-color: #5CB85C;
+    color: white;
+}
+
+.btn-blue {
+    background-color: #137BCC;
+    color: white;
+}
